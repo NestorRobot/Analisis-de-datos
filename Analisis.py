@@ -29,3 +29,4 @@ print(matrix_diag)
 #matriz aleatoria entre numeros de 0 a 1
 random=np.random.random((2,3))
 print(random)
+matris_res=matrix.reshape(3,4,3)

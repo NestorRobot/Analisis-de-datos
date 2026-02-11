@@ -31,7 +31,7 @@ print(stacked_v)
 stacked_h=np.hstack((array_a,array_b))
 print(stacked_h)
 
-#
+#split
 array_c=np.arange(1,10)
 split_array=np.split(array_c,3)
 print(split_array)
