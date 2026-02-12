@@ -23,7 +23,7 @@ print(f'Media ventas producto A:{media_A},Suma de ventas producto A {ventas_A}',
       f'Media ventas producto B:{media_B},Suma de ventas producto B {ventas_B}',
       f'Media ventas producto A:{media_C},Suma de ventas producto C {ventas_C}')
 
-Ventas_total=(product_A+product_B+product_C)
+Ventas_total=np.array(product_A+product_B+product_C)
 print(f'Ventas_total:{Ventas_total}')
 for i in range(len(meses)):
     print(f'{meses[i]}:{Ventas_total[i]}')
